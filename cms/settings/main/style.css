@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #BAD6EB;
+}
+header{
+ background-color: #000321;
+ color: #BAD6EB;
+ display: flex;
+ justify-content: space-between;
+ height: 60px;
+ padding-left: 2%;
+ padding-right: 2%;
+}
+body{
+margin:0;
+height: 100%;
+background-color: #BAD6EB;
+}
+#in{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BAD6EB;
+
+}
+#in:hover{
+ color: #9DCAD4;   
+}
+iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    overflow:hidden;
+    background-color: #BAD6EB;
+}

@@ -1,0 +1,546 @@
+header{
+    background-color: #000321;
+    color: #BAD6EB;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 2%;
+    padding-right: 2%;
+   }
+body{
+    margin:0;
+}
+#out, #safe{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BAD6EB;
+    
+}  
+#safe:hover, #out:hover{
+    color: #9DCAD4;   
+}
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#left{
+    min-width: 5%;
+    width: min-content;
+    padding-left: 2%;
+    background-color: #000321;
+    color:#BAD6EB;
+    height:100%;
+    padding-right: 0.45%;
+}
+html, body{
+    height: 100%;
+}
+#left h5:hover{
+    color:#9DCAD4;
+    cursor: pointer;
+}
+#left h5{
+    padding: 4%;
+    margin-right: auto;
+    width: 100%;
+}
+#right{
+    width: 60%;
+    margin-top: +3%;
+    margin-right: +3%;
+    margin-bottom: +1%;
+}
+.option{
+    display: none;
+    background-color: #00C9CC;
+    color: #294566;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    max-width: 30%;
+}
+#opcje{
+    height: 100%;
+    width: auto;
+}
+#ekran{
+    width: max-content;
+    height: 80%;
+    min-width: 100%;
+    max-height: max-content;
+}
+.option h1:hover{
+    cursor: context-menu;
+}
+#index:hover, #login:hover{
+    cursor:grab;
+    color: #0e0c38;
+}
+#index:active, #login:active{
+    cursor:grabbing;
+}
+#napis{
+    color: #000321;
+}
+#index, #login, #left, #opcje, #right, #look, header{
+      -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */  
+}
+#look{
+    pointer-events: none;
+    border:none;
+}
+#safe{
+    display:none;
+}
+#ekran form table td{
+    border: 2px solid #000321;
+    color: #294566;
+    width: max-content;
+    text-align: center;
+}
+#ekran form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ekran form table tr:hover td{
+    background-color: #00C9CC;
+}
+#ekran form table th{
+  border:none;
+  color:#BAD6EB;
+  background-color: #000321;
+  width: max-content;
+  text-align: center;  
+}
+.checkbox{
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    background-color: #000321;
+}
+#user_op h3:hover{
+    cursor:pointer;
+    color: #0e0c38;
+}
+#form_user_add{
+     background-color: #000321;
+    color:#BAD6EB;
+    flex-direction: column;     
+}
+form #form_add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+form #form_add div{
+    padding: 1%;
+}
+form #form_add #inputy{
+    min-width: max-content;
+}
+form #form_add #buttony{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.add_in{
+    background-color: #023981;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+    color:#BAD6EB;
+    height: 50px;
+}
+.add_in:focus{
+    border: none;
+    background-color: #00C9CC;
+    color: #0e0c38;
+    outline: none;
+}
+#buttony input{
+    background-color: #000321;
+    color:#645dcc;
+    border: none;
+}
+#buttony input:hover{
+    color:#ffffff;
+}
+#error{
+    color:#ff0000;
+}
+#success{
+    color: #00ff00;
+}
+.upr_konto{
+    color:#BAD6EB;
+    background-color: #023981;
+    padding: 3%;
+    border-radius: 10%;   
+}
+.upr_konto h2{
+    border-bottom: 5px solid #00C9CC;
+    text-align: center;
+    color:#00C9CC;
+    word-wrap: break-word;
+}
+#us_level{
+    width: 100%;
+    height: 100%;
+    background-color: #000321;
+    color: #BAD6EB;
+    text-align: center; 
+}
+#us_level td, #us_level th{
+    border: 5px solid #294566;
+}
+#us_level tr:hover td{
+    background-color: #0e0c38;
+}
+#user_table u:hover{
+    cursor: pointer;
+}
+#edit_you{
+ flex-direction: column;   
+}
+#ekran form #u_tab td{
+border: none;
+text-align: right;
+} 
+#ekran form #u_tab tr:hover td{
+    background-color: transparent;
+}
+#ekran form #u_tab td{
+    padding: 2%;
+    font-size: 150%;
+}
+#ekran form #u_tab input{
+    color:#294566;
+    background-color: transparent;
+    border: 1px solid #9DCAD4;
+    height: 30px;
+}
+#ekran form #u_tab input:hover{
+    background-color: #9DCAD4;
+}
+#ekran form #u_tab input:focus{
+    outline: none;
+    background-color: #294566;
+    color: #9DCAD4;
+}
+#ekran form #u_tab #buttons input{
+    background-color: #9DCAD4;
+}
+#ekran form #u_tab #buttons input:hover, #ekran form #u_tab #buttons button:hover{
+    background-color: #294566;
+    color: #9DCAD4;
+}
+#ekran form #u_tab #buttons button{
+    background-color: #9DCAD4;
+    color:#294566;
+    border: 1px solid #9DCAD4;
+    height: 30px;
+}
+#all_pages{
+    width: 100%;
+    height: 100%;
+    margin: 1% 1% 1% 1%;
+    color:#000321;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.page{
+    width:10%;
+    height:15%;
+    text-align: center;
+    overflow-wrap: break-word;
+    background-color: #BAD6EB;
+}
+#add_new, #page_del{
+    background-color: #9DCAD4;
+    font-size: 600%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;  
+}
+.page:hover{
+    box-shadow:inset 0px 0px 0px 10px #294566;
+}
+#decide{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+#n_page, #n_article{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#00C9CC;
+    background-color: #0e0c38;
+}
+#n_page{
+    border-right: 1px solid #000321;
+}
+#n_article{
+    border-left: 1px solid #000321;
+}
+#n_page:hover, #n_article:hover{
+    background-color: #294566;
+    cursor: pointer; 
+}
+#ekran #add_f_page{
+    width: 100%;
+    height: 100%;
+    background-color: #0e0c38;
+    color: #BAD6EB; 
+}
+#ekran #add_f_page #add_page{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-self: center;
+    height: 50%;
+}
+#page_ab{
+    color: #00C9CC;
+    background-color: #023981;
+    border: 4px solid #000321;
+}
+#page_ab:hover{
+    color:#00C9CC;
+    background-color: #000321;
+    border: 4px solid #023981;
+}
+#add_f_art{
+    width: 100%;
+    height: 100%;
+    background-color: #0e0c38;
+    color: #BAD6EB;
+}
+#add_art{
+    flex-direction: column;
+}
+#art_top{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#tresc{
+    width: 80%;
+    height: 80%;
+    resize: none;
+}
+#add_f_art #title, #add_f_art #tresc{
+border: none;
+background-color: #000321;
+color: #9DCAD4;
+}
+#add_f_art #title:focus, #add_f_art #tresc:focus{
+    outline: none;
+    background-color: #023981;
+}
+#art_sub{
+    border: none;
+    background-color: #023981;
+    color: #9DCAD4;
+}
+#art_sub:hover{
+    background-color: #000321;
+    color: #294566;
+}
+#things_op h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#ntitle, #ncontent{
+    background-color: #294566;
+    color:#00C9CC;
+}
+#ntitle:focus, #ncontent:focus{
+    outline: none;
+    background-color: #000321;
+}
+#ncontent{
+    resize: none;
+}
+#change_at button, #at_buttons_chc button{
+    border: 4px #0e0c38 outset;
+    background-color: #00C9CC;
+    color:#000321; 
+}
+#change_at button:hover, #at_buttons_chc button:hover{
+    border: 4px #0e0c38 inset;
+}
+#at_buttons_chc{
+    color: #BAD6EB;
+}
+.del_show_p{
+    background-color: #000321;
+    border: 2px solid #BAD6EB;
+    color: #BAD6EB;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10%;
+    width: 10%;
+    text-align: center;
+    height: min-content;
+    height: 15%;
+}
+.del_show_p h3{
+    border-bottom: 1px solid #BAD6EB;
+    word-wrap: break-word;
+}
+#del_pages_show{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#del_pages_show form{
+    width: 100%;
+    height: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#del_pages_show button{
+    width: max-content;
+    background-color: #9DCAD4;
+    color:#000321;
+    border: 2px outset #0e0c38;
+}
+#del_pages_show button:hover{
+    border: 2px inset #0e0c38;
+}
+#edit_op h3:hover, #color_op h3:hover{
+cursor:pointer;
+color: #0e0c38;
+}
+#ekran #cp_form{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0e0c38;
+    color: #BAD6EB;
+}
+#ekran #cp_form label{
+    background-color: #000321;
+    border: 3px solid #BAD6EB;
+    border-radius: 100%;
+    word-wrap: break-word;
+    width: 10%;
+    text-align: center;
+    min-height: max-content;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ekran #cp_form label:hover{
+    border-radius: 0%;
+    cursor:grab;
+}
+#ekran #cp_form label:active{
+    cursor: grabbing;
+}
+#ek_link{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000321;
+    color:#BAD6EB;
+}
+div#link{
+    width:100%;
+    background-color: #294566;
+    display: flex;
+    padding: 2%;
+}
+#link_f{
+    flex-direction: column;
+}
+#lnkdec{
+    background-color: #000321;
+    color: #00C9CC;
+    border: 2px inset #0e0c38;
+}
+#lnkdec:hover{
+    border: 2px outset #0e0c38;
+}
+#metric input{
+    background-color: #023981;
+    color: #00C9CC;
+    width: 200%;
+}
+#metric input:focus{
+    background-color: #000321;
+    outline: none;    
+}
+#metric input::-webkit-outer-spin-button,
+#metric input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#titled, #titled form{
+    width:100%;
+    display: flex;
+    background-color: #0e0c38;
+}
+#titled{
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#titled form{
+    height: 30%;
+    justify-content: space-evenly;
+}
+#titled button{
+    border: #00C9CC 1px outset;
+    color: #000321;
+    background-color: #023981;
+}
+#titled button:hover{
+    border-style: inset;
+}
+#titled input{
+    background-color: #000321;
+    color: #BAD6EB;
+    border: none;
+}
+#titled input:focus{
+    background-color: #023981;
+    outline: none;
+}

@@ -1,0 +1,44 @@
+
+    html{
+        min-height: min-content;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #000321;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        min-height: max-content;
+        align-content: space-around;
+        align-items: center;
+        min-width: max-content;
+        width: 55%;
+        background-color: #0e0c38;
+        color: #BAD6EB;
+        box-shadow: 5px 5px 15px#000000;
+    }
+    #content, #biblioteka{
+        width: 65%;
+    }
+    #biblioteka{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    h1{
+        color: #00C9CC;
+    }
+    img{
+        border: 3px solid #00C9CC;
+        width:600px;
+        height: 500px;
+    }
+    img:hover{
+        border-color: #BAD6EB;
+    } 
+    

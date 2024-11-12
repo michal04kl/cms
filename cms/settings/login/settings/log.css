@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000321;
+    color: #30a2fa;
+    height: 100%;
+    margin-top: 5%;
+}
+#fd{
+    background-color: #12233B;
+    border-radius: 15%;
+    width:30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    box-shadow: 5px 5px 5px #000000;
+}
+#fd h1{
+    font-size: 350%;
+    text-align: left;
+    width: 80%;
+}
+#fd form{
+background-color: #072B59;
+padding: 5%;
+width: 50%;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 10%;
+}
+#fd form .inputy{
+width: 100%;
+height: 50px;
+background-color: #023981;
+border: none;
+}
+#fd form .inputy:focus{
+    border: none;
+    box-shadow: 5px 5px 5px #000000;
+    color:#ffffff;
+    outline: none;
+}
+#fbutony{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#fbutony input{
+    background-color: #000000;
+    color:#645dcc;
+    border: none;
+}
+#fbutony input:hover{
+    color:#ffffff;
+    box-shadow: 1px 1px 1px #000000;
+}
+#error{
+    color:#ff0000;
+}

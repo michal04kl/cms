@@ -1,0 +1,7 @@
+login i hasło bazy - cms 0M5IzcjB-BRiXqiC
+------------------------------------------------------------------------------
+login i hasło admina - admin 66789opatryik
+login i hasło edytora - edit 66524ploc
+login i hasło blogera - blog 664532bg
+----------------------------------------------------------------------------
+w xampie (php.ini)- ;extension=zip ---> extension=zip

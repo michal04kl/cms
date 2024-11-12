@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombka</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="/frameworki/jquery/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="bombka.js"></script>
+</head>
+<body>
+    <header><h1>Ubierz choinkę!</h1></header>
+    <main><div id="obraz"></div></main>
+    <aside id="help"><h3>Instrukcja</h3>
+    <h4>Stworzenie nowej bombki:</h4> przytrzymać bombkę na panelu, a następnie przeciągnąć ją gdziekolwiek.<br><br>
+    <h4>Zmiana miejsca bombki:</h4> kliknąć na stworzoną bombkę, a następnie ją przytrzymać i przeciągnąć w inne miejsce.<br><br>
+    <h4>Zmiana koloru tworzonej bombki:</h4> przed stworzeniem bombki wybrać inny kolor pod bombką na panelu, a następnie stworzyć nową bombkę.<br><br>
+    <h4>Usunięcie bombki:</h4> podwójnie kliknąć na bombkę którą chce się usunąć, pojawi się zaznaczenie, następnie kliknąć przycisk "usuń wybraną/wybrane bombki".<br><br>
+    <h4>Zmiana koloru stworzonej bombki:</h4> podwójnie kliknąć na bombkę którą chce się usunąć, pojawi się zaznaczenie, następnie wybrać inny kolor pod bombką na panelu<br><br>
+    <h4>Można usuwać i zmieniać kolor więcj niż jednej bombki na raz. Zmiany będą dotyczyć wszystkich zaznaczonych bombek.</h4>
+    <h4>Usuwanie wszystkich bombek na raz:</h4> kliknąć przycisk "usuń wszystkie bombki".<br><br>
+    <h4>Usuwanie zaznaczenia:</h4> kliknąć na zaznoczoną bombkę.<br><br>
+    </aside>
+    <br>
+    <footer>
+    <div id="ob">
+    <div id="bombka"></div>
+    <input type="color" id="zmiana">
+    </div>
+    <button id="del">usuń wybraną/wybrane bombki</button>
+    <div id="wyb">
+        <h4>Czy napewno chcesz usunąć tą/te bombki?</h4>
+        <div id="wyb2">
+        <button id="tak">tak</button>
+        <button id="nie">nie</button>
+    </div>
+    </div>
+    <button id="all">usuń wszystkie bombki</button>
+    <div id="wyb3">
+        <h4>Czy napewno chcesz usunąć <u>WSZYSTKIE</u> bombki?</h4>
+        <div id="wyb4">
+        <button id="tak_all">tak</button>
+        <button id="nie_all">nie</button>
+    </div>
+    </div>
+    <button id="info">Help</button>
+    </footer>
+</body>
+</html>
